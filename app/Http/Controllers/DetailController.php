@@ -10,7 +10,6 @@ class DetailController extends Controller
     public function details($id)
     {
         $barang = Alternatif::where('kode_alternatif', $id)->first();
-
         return view('detail.index', compact('barang'));
     }
     public function bawah()
