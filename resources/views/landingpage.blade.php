@@ -94,9 +94,10 @@
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="{{ url('/hasilsaw') }}">Fitur Rekomendasi</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#panduan">Panduan</a></li> <!-- Link ke Panduan -->
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
           <li><a class="getstarted scrollto" href="{{ url('/login') }}">Login</a></li>
-          <li><a class="getstarted scrollto" href="{{ url('/register') }}">Register</a></li>
+          <li><a class="getstarted scrollto" href="{{ url('/login') }}">Register</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -174,6 +175,50 @@
 </section>
 <!-- End About Section -->
 
+<!-- Panduan Section -->
+<section id="panduan" class="panduan section-bg">
+    <div class="container" data-aos="fade-up">
+      <div class="section-title">
+        <h2>Panduan</h2>
+        <p>Temukan panduan lengkap untuk menggunakan platform USAHATEGAL.ID. Ikuti langkah-langkah sederhana ini untuk memaksimalkan pengalaman Anda.</p>
+      </div>
+      <div class="row">
+        <!-- Panduan 1 -->
+        <div class="col-lg-6 col-md-6 d-flex align-items-stretch mb-4">
+          <div class="icon-box">
+            <div class="icon"><i class="bi bi-search"></i></div>
+            <h4><a href="">Cari Lokasi</a></h4>
+            <p>Gunakan fitur pencarian untuk menemukan lokasi usaha kuliner sesuai dengan kebutuhan Anda. Masukkan kriteria pencarian seperti harga, lokasi, dan fasilitas.</p>
+          </div>
+        </div>
+        <!-- Panduan 2 -->
+        <div class="col-lg-6 col-md-6 d-flex align-items-stretch mb-4">
+          <div class="icon-box">
+            <div class="icon"><i class="bi bi-info-circle"></i></div>
+            <h4><a href="">Detail Informasi</a></h4>
+            <p>Baca detail informasi tentang tempat usaha kuliner yang Anda minati. Temukan harga, fasilitas, dan review dari pengguna lain.</p>
+          </div>
+        </div>
+        <!-- Panduan 3 -->
+        <div class="col-lg-6 col-md-6 d-flex align-items-stretch mb-4">
+          <div class="icon-box">
+            <div class="icon"><i class="bi bi-calendar-check"></i></div>
+            <h4><a href="">Reservasi Tempat</a></h4>
+            <p>Hubungi pemilik tempat usaha melalui informasi kontak yang tersedia untuk melakukan reservasi atau kunjungan ke lokasi.</p>
+          </div>
+        </div>
+        <!-- Panduan 4 -->
+        <div class="col-lg-6 col-md-6 d-flex align-items-stretch mb-4">
+          <div class="icon-box">
+            <div class="icon"><i class="bi bi-pencil-square"></i></div>
+            <h4><a href="">Tinggalkan Review</a></h4>
+            <p>Setelah mengunjungi tempat usaha, jangan lupa untuk meninggalkan review dan berbagi pengalaman Anda dengan pengguna lain.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
   <div class="container">
     <div class="row">
       @foreach($barangs as $barang)

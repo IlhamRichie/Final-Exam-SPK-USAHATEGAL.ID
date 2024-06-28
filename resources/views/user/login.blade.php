@@ -5,22 +5,40 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>LOGIN</title>
-      <link href="{{ asset('/Arsha/img/UsahaTegalPHB.png') }}" rel="icon">
-	  
-	  
+    <link href="{{ asset('/Arsha/img/UsahaTegalPHB.png') }}" rel="icon">
+
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="{{asset('adminlte3/plugins/fontawesome-free/css/all.min.css')}}">
     <!-- Theme style -->
     <link rel="stylesheet" href="{{asset('adminlte3/dist/css/adminlte.min.css')}}">
+
+    <!-- Custom styles -->
+    <style>
+        body {
+            background-image: url('/fototempat/bglog.jpg');            
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .login-box {
+            background: rgba(255, 255, 255, 0.8); /* Background color for the login box */
+            padding: 20px;
+            border-radius: 8px;
+        }
+    </style>
 </head>
 
 <body class="hold-transition login-page">
     <div class="login-box">
         <div class="login-logo">
+            <!-- Add your logo image here -->
+            <img src="{{ asset('/Arsha/img/UsahaTegalPHB.png') }}" alt="Logo" style="max-width: 150px;">
+            <br>
             <h1 style="font-size:1em"></h1>
-			<br/>
+            <br/>
         </div>
         <!-- /.login-logo -->
         <div class="card">

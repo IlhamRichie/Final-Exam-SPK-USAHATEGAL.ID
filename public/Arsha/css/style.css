@@ -146,6 +146,62 @@ h6 {
   max-height: 40px;
 }
 
+
+.panduan {
+  padding: 60px 0;
+  background: #f7f8fa;
+}
+
+.panduan .section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.panduan .icon-box {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  position: relative;
+}
+
+.panduan .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.panduan .icon i {
+  font-size: 36px;
+  line-height: 1;
+  color: #ff0066;
+}
+
+.panduan .icon-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+}
+
+.panduan .icon-box h4 {
+  font-weight: 600;
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+.panduan .icon-box h4 a {
+  color: #333;
+}
+
+.panduan .icon-box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/

@@ -150,7 +150,7 @@
     <section id="hasilsaw" class="about">
       <div class="container" data-aos="fade-up">
         <div class="section-title">
-          <h2>REKOMENDASI TEMPAT USAHA KULINER TERBARU</h2>
+          <h2>REKOMENDASI TEMPAT USAHA KULINER TERBAIK</h2>
         </div>
         <div class="row content">
           <div class="col-lg-12">
