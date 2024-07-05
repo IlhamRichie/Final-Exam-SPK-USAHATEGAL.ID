@@ -10,14 +10,14 @@
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="{{asset('adminlte3/plugins/fontawesome-free/css/all.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('adminlte3/plugins/fontawesome-free/css/all.min.css') }}">
     <!-- Theme style -->
-    <link rel="stylesheet" href="{{asset('adminlte3/dist/css/adminlte.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('adminlte3/dist/css/adminlte.min.css') }}">
 
     <!-- Custom styles -->
     <style>
         body {
-            background-image: url('/fototempat/bglog.jpg');            
+            background-image: url('/fototempat/bglog.jpg');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -27,6 +27,17 @@
             background: rgba(255, 255, 255, 0.8); /* Background color for the login box */
             padding: 20px;
             border-radius: 8px;
+        }
+
+        .google-btn {
+            color: #fff;
+            background-color: #db4437;
+            border-color: #db4437;
+        }
+
+        .google-btn:hover {
+            background-color: #c53729;
+            border-color: #c53729;
         }
     </style>
 </head>
@@ -64,16 +75,18 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-8">
-
-                        </div>
-                        <!-- /.col -->
-                        <div class="col-4">
+                        <div class="col-12">
                             <button type="submit" class="btn btn-primary btn-block">Masuk</button>
                         </div>
                         <!-- /.col -->
                     </div>
                 </form>
+                <div class="social-auth-links text-center mt-2 mb-3">
+                    <a href="{{ route('google.redirect') }}" class="btn btn-block btn-danger google-btn">
+                        <i class="fab fa-google mr-2"></i> Masuk dengan Google
+                    </a>
+                </div>
+                <!-- /.social-auth-links -->
             </div>
             <!-- /.login-card-body -->
         </div>
