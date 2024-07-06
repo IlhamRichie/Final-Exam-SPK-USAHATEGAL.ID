@@ -14,7 +14,7 @@
 						<input class="form-control" type="text" name="kode_alternatif" value="{{ old('kode_alternatif', $row->kode_alternatif) }}" readonly>
 					</div>
 					<div class="form-group">
-						<label>Nama Laptop <span class="text-danger">*</span></label>
+						<label>Nama Tempat <span class="text-danger">*</span></label>
 						<input class="form-control" type="text" name="nama_alternatif" value="{{ old('nama_alternatif', $row->nama_alternatif) }}" readonly>
 					</div>
 					@foreach($nilais as $nilai)

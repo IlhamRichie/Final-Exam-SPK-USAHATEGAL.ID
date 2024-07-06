@@ -102,7 +102,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Detail Laptop</h2>
+          <h2>DETAIL TEMPAT USAHA</h2>
         </div>
 
         <div class="col-md-12 mt-2">

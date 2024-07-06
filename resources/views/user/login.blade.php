@@ -39,6 +39,17 @@
             background-color: #c53729;
             border-color: #c53729;
         }
+
+        .facebook-btn {
+            color: #fff;
+            background-color: #3b5998;
+            border-color: #3b5998;
+        }
+
+        .facebook-btn:hover {
+            background-color: #30487b;
+            border-color: #30487b;
+        }
     </style>
 </head>
 
@@ -84,6 +95,9 @@
                 <div class="social-auth-links text-center mt-2 mb-3">
                     <a href="{{ route('google.redirect') }}" class="btn btn-block btn-danger google-btn">
                         <i class="fab fa-google mr-2"></i> Masuk dengan Google
+                    </a>
+                    <a href="{{ route('google.redirect') }}" class="btn btn-block btn-primary facebook-btn">
+                        <i class="fab fa-facebook mr-2"></i> Masuk dengan Facebook
                     </a>
                 </div>
                 <!-- /.social-auth-links -->

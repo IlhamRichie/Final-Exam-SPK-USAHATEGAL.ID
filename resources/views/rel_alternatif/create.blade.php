@@ -13,7 +13,7 @@
 						<input class="form-control" type="text" name="kode_alternatif" value="{{ old('kode_alternatif', kode_oto('kode_alternatif', 'tb_alternatif', 'A', 2)) }}" />
 					</div>
 					<div class="form-group">
-						<label>Nama laptop <span class="text-danger">*</span></label>
+						<label>Nama Tempat <span class="text-danger">*</span></label>
 						<input class="form-control" type="text" name="nama_alternatif" value="{{ old('nama_alternatif') }}" />
 					</div>
 					<div class="form-group">

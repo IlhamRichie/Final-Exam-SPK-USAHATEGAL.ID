@@ -5,7 +5,7 @@
 	<thead>
 		<th>No</th>
 		<th>Kode</th>
-		<th>Nama Laptop</th>
+		<th>Nama Tempat</th>
 		<th>Keterangan</th>
 	</thead>
 	<?php $no = 1 ?>
