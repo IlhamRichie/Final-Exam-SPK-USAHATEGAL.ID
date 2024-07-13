@@ -13,3 +13,5 @@ class FrontController extends Controller
         return view('front');
     }
 }
+
+// cek pull req
